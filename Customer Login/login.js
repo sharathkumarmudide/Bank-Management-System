@@ -26,7 +26,7 @@ function login() {
         alert("Login Successful!");
 
         window.location.href =
-            "/Dashboard/dashboard.html";
+            "../Dashboard/dashboard.html";
 
     } else {
 
