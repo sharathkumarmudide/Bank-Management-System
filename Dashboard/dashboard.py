@@ -12,11 +12,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# @app.get("/")
-# def home():
-#     return{
-#         "message": "Bank Management API Running"
-#     }
 
 @app.post("/deposit")
 def deposit_money(data: dict):
@@ -24,10 +19,7 @@ def deposit_money(data: dict):
     balance = data["balance"]
     amount = data["amount"]
 
-    updated_balance = deposit(
-        balance,
-        amount
-    )
+    updated_balance = deposit(balance, amount)
 
     return {
         "balance": updated_balance
@@ -40,7 +32,4 @@ def withdraw_money(data: dict):
     balance = data["balance"]
     amount = data["amount"]
 
-    return withdraw(
-        balance,
-        amount
-    )
+    return withdraw(balance, amount)

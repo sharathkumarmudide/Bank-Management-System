@@ -5,7 +5,7 @@ async function withdraw() {
     );
 
     const response = await fetch(
-        "http://127.0.0.1:8000/withdraw",
+        "http://bank-backend.onrender.com/withdraw",
         {
             method: "POST",
             headers: {
