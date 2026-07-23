@@ -19,7 +19,7 @@ document.getElementById("bankForm").addEventListener("submit", function(e){
         "Account Created Successfully\n\n" +
         "Available Balance : ₹" + customer.balance
     );
-    window.location.href = "/Customer Login/login.html";
+    window.location.href = "../Customer Login/login.html";
 
     this.reset();
 });
