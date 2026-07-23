@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏦 Customer Dashboard</h1>
+
+    <div class="card">
+        <h3>Name : <span id="customerName"></span></h3>
+        <h3>Mobile : <span id="customerMobile"></span></h3>
+        <h3>Balance : ₹<span id="customerBalance"></span></h3>
+    </div>
+
+    <div class="actions">
+        <button onclick="deposit()">Deposit Amount</button>
+        <button onclick="withdraw()">Withdraw Amount</button>
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+<script src="deposit.js"></script>
+<script src="withdraw.js"></script>
+
+</body>
+</html>

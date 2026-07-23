@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.container{
+    width:700px;
+    margin:50px auto;
+}
+
+h1{
+    text-align:center;
+    color:#1e3c72;
+    margin-bottom:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.actions{
+    margin-top:25px;
+    display:flex;
+    gap:20px;
+}
+
+button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#1e3c72;
+    color:white;
+    cursor:pointer;
+}
